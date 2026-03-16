@@ -2,6 +2,13 @@ body {
   font-family: "league spartan", sans-serif;
 }
 
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4))
+    url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h1 {
   font-weight: 700;
   font-size: 96px;
