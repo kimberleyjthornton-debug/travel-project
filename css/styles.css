@@ -54,7 +54,13 @@ header a {
   background-color: white;
   padding: 16px 32px;
   border-radius: 2px;
+  border: 1px solid white;
   margin-top: 32px;
+}
+
+header a:hover:focus {
+  text-decoration: none;
+  color: #211c39;
 }
 
 @media (max-width: 900px) {
@@ -69,5 +75,9 @@ header a {
   }
   header h3 {
     font-size: 14px;
+  }
+  header a {
+    font-size: 12px;
+    padding: 12px 28px;
   }
 }
