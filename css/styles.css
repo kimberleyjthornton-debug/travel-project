@@ -21,6 +21,32 @@ body {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
+.card {
+  background-color: white;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #211c39;
+  text-decoration: none;
+}
+
 section {
   max-width: 1200px;
   margin: 0 auto;
@@ -112,8 +138,11 @@ main p {
   margin-top: 8px;
 }
 
-.im-responsive {
-  max-width: 100%;
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #211c39;
 }
 
 footer {
