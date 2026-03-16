@@ -42,20 +42,18 @@ header h3 {
 }
 
 header a {
-  display: inline-block;
   font-weight: 700;
   font-size: 14px;
-  color: #211c39;
   line-height: 1.5;
   text-align: center;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  text-decoration: none;
-  background-color: white;
+  color: #211c39;
   padding: 16px 32px;
-  border-radius: 2px;
-  border: 1px solid white;
   margin-top: 32px;
+  display: inline-block;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: white;
 }
 
 header a:hover:focus {
