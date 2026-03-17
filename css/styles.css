@@ -86,6 +86,12 @@ body {
   padding: 16px;
   background-color: #211c39;
   text-decoration: none;
+  transform: none;
+}
+
+.btn:hover {
+  text-transform: uppercase;
+  color: white;
 }
 
 :focus:not(:focus-visible) {
@@ -149,11 +155,6 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
   background: white;
-}
-
-header a:hover:focus {
-  text-decoration: none;
-  color: white;
 }
 
 main {
