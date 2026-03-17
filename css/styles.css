@@ -26,12 +26,42 @@ body {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
+  display: block;
 }
 
 .card {
   background-color: white;
   margin: 0;
+  border: none;
+}
+
+.card-header {
+  padding: 0;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
+  background-color: white;
+}
+
+.secondary-section {
+  background-color: rgb(245, 245, 245);
+}
+
+.gallery-section .grid {
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 3fr 3fr;
+  grid-gap: 20px;
+  padding: 30px;
+}
+
+.gallery-section img {
+  width: 375px;
 }
 
 .btn {
@@ -48,10 +78,15 @@ body {
   text-decoration: none;
 }
 
+:focus:not(:focus-visible) {
+  outline: 0;
+  box-shadow: none;
+}
+
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 80px 0;
+  padding: 100px;
 }
 
 header {
