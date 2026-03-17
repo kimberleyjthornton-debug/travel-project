@@ -58,7 +58,8 @@ body {
   background-color: white;
 }
 
-.secondary-section {
+.secondary-section,
+.tertiary-section {
   background-color: rgb(245, 245, 245);
 }
 
@@ -90,6 +91,10 @@ body {
 :focus:not(:focus-visible) {
   outline: 0;
   box-shadow: none;
+}
+
+.instagram-embeds {
+  margin: 30px 0;
 }
 
 section {
