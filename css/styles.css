@@ -25,6 +25,11 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 1 /1;
+}
+
 .img-responsive {
   width: 100%;
   display: block;
@@ -38,6 +43,10 @@ body {
 
 .card-header {
   padding: 0;
+}
+
+.card-header.grid {
+  grid-gap: 0;
 }
 
 .card-body {
@@ -162,7 +171,6 @@ main h3 {
   font-size: 40px;
   line-height: 1.5;
   color: #211c39;
-  margin: 0;
 }
 
 main p {
